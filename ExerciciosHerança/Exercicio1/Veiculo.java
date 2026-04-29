@@ -1,4 +1,5 @@
-package fase05.L05Exercicio08.dominio;
+package ExerciciosHerança.Exercicio1;
+
 
 public abstract class Veiculo {
     protected String marca;
