@@ -10,6 +10,6 @@ public abstract class Veiculo {
         this.modelo = modelo;
     }
     
-    public abstract exibirDados();
+    public abstract void exibirDados();
     
 }
