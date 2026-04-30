@@ -1,4 +1,4 @@
-package ExerciciosHerança.Exercicio1;
+package ExerciciosHeranca.Exercicio1;
 
 public class Moto extends Veiculo{
     private float cilindradas;
