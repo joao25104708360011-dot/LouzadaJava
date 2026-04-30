@@ -1,4 +1,4 @@
-package ExerciciosHerança.Exercicio3;
+package ExerciciosHeranca.Exercicio3;
 
 public abstract class Conta {
     protected String nome;
