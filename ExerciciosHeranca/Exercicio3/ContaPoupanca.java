@@ -1,4 +1,4 @@
-package ExerciciosHerança.Exercicio3;
+package ExerciciosHeranca.Exercicio3;
 
 public class ContaPoupanca extends Conta{
     private int diaRendimento;
