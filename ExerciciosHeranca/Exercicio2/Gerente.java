@@ -1,4 +1,4 @@
-package ExerciciosHerança.Exercicio2;
+package ExerciciosHeranca.Exercicio2;
 
 public class Gerente extends Funcionario{
     private String departamento;
