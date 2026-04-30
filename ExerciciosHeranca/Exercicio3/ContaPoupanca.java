@@ -19,7 +19,7 @@ public class ContaPoupanca extends Conta{
     }
     
     public void taxas(double taxa){
-        this.saldo = this.saldo + this.saldo * taxa);
+        this.saldo += (this.saldo * taxa);
     }
     
 }
