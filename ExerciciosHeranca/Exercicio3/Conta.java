@@ -15,6 +15,6 @@ public abstract class Conta {
     
     public void depositar(double valor){
         this.saldo += valor;
-        System.out.println("Valor deposirado com sucesso.");
+        System.out.println("Valor depositado com sucesso.");
     }
 }
