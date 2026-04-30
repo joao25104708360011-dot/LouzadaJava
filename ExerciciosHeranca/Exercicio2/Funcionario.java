@@ -1,4 +1,4 @@
-package ExerciciosHerança.Exercicio2;
+package ExerciciosHeranca.Exercicio2;
 
 public abstract class Funcionario {
     protected String nome;
