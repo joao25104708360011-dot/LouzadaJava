@@ -9,8 +9,8 @@ public class Gerente extends Funcionario{
     }
     
     public double salarioDepartamento(){
-        if(departemento.equal("Finanças")){
-            return salario + (50\100);
+        if(departamento.equals("Finanças")){
+            return salario + (salario * (50.0/100.0));
         } else {
             return salario;
         }
@@ -18,7 +18,7 @@ public class Gerente extends Funcionario{
     
     public double salarioNome(){
         if(nome.charAt(0) == 'J'){
-            return salarioDepartamento() + (25/100);
+            return salarioDepartamento() + (salarioDepartamento() * (25.0/100.0));
         } else {
             return salarioDepartamento();
         }
