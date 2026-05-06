@@ -13,7 +13,15 @@ public abstract class Funcionario {
         return cpf;
     }
     
+    public String setCpf(String cpf){
+        this.cpf = cpf;
+    }
+    
     public double getSalario(){
         return salario;
+    }
+    
+    public double setSalario(double salario){
+        this.salario = salario;
     }
 }
