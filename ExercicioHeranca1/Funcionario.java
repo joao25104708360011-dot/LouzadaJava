@@ -4,8 +4,8 @@ public abstract class Funcionario {
     private String cpf;
     private double salario;
     
-    public Funcionario(String nome, double salario){
-        this.nome = nome;
+    public Funcionario(String cpf, double salario){
+        this.cpf = cpf;
         this.salario = salario;
     }
     
