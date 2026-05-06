@@ -1,5 +1,7 @@
 package ExerciciosHeranca1.Controle;
-import ExerciciosHeranca1.Dominio.*;
+import ExerciciosHeranca1.Dominio.Funcionario;
+import ExerciciosHeranca1.Dominio.Vendedor;
+import ExerciciosHeranca1.Dominio.Diretor;
 
 import java.util.scanner;
 import java.text.DecimalFormat;
