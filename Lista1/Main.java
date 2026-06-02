@@ -1,6 +1,6 @@
 package Lista1.Exercicio1;
 
-public class Principal {
+public class Main { 
     public static void main(String[] args) {
         
         Funcionario funcionario1 = new Gerente("Alice Souza", 5000.0, 1500.0);
