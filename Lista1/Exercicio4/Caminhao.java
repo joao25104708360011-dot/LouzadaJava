@@ -1,4 +1,4 @@
-package Lista1.Exercicio4
+package Lista1.Exercicio4;
 
 public class Caminhao extends Veiculo implements Tributavel {
     private double toneladasCarga;
