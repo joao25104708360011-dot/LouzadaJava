@@ -1,4 +1,4 @@
-package Lista1.Exercicio4
+package Lista1.Exercicio4;
 
 public abstract class Veiculo {
     private String placa;
