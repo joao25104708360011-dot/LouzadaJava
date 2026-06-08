@@ -5,7 +5,7 @@ public abstract class Veiculo {
     private double custoFixo;
     
     public Veiculo(String placa, double custoFixo) {
-        if (placa.length() != 7) {
+        if (placa == null || placa.length() != 7) {
             throw new PlacaInvalidaException(placa); 
         } 
         
