@@ -7,24 +7,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VeiculoController {
-    private List<Veiculo> frota;
-    private final VeiculoRepository repository;
+    private final List<Veiculo> frota = new ArrayList<>();
+    private final VeiculoRepository repository = new VeiculoRepository();
 
-    public VeiculoController(String nomeArquivo) {
-        this.repository = new VeiculoRepository(nomeArquivo);
-        try {
-            this.frota = repository.carregar();
-        } catch (IOException e) {
-            this.frota = new ArrayList<>();
-        }
-    }
-
-    public void adicionarVeiculo(Veiculo v) throws IOException {
+    public void adicionarVeiculo(Veiculo v) {
         frota.add(v);
-        repository.salvar(frota);
     }
 
-    public List<Veiculo> getFrota() {
-        return new ArrayList<>(frota);
+    public void salvarDadosEmArquivo(String nomeArquivo) throws IOException {
+        repository.salvar(nomeArquivo, frota);
+    }
+
+    public List<String> obterLinhasDoArquivo(String nomeArquivo) throws IOException {
+        return repository.ler(nomeArquivo);
     }
 }
